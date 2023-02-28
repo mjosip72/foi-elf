@@ -10,28 +10,6 @@
 
 <!-- BEGIN -->
 
-<script>
-
-  (() => {
-
-    let head = document.querySelector("head");
-  
-    let style = document.createElement("link");
-    style.rel = "stylesheet";
-    style.type = "text/css";
-    style.href = "https://mjosip72.github.io/foi-elf/style.css";
-
-    style.onload = () => {
-      let content = document.querySelector("#elf-html-block");
-      content.style.display = "block";
-    };
-
-    head.appendChild(style);
-    
-  })();
-
-</script>
-
 <div id="elf-html-block" style="display: none">
 
   <div class="content">
@@ -88,6 +66,8 @@
   </div>
 
 </div>
+
+<script type="text/javascript" src="https://mjosip72.github.io/foi-elf/apply-style.js"></script>
 
 <!-- END -->
 
