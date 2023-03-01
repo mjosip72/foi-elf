@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-
 #elf-html-block .content {
 
     display: grid;
@@ -12,7 +10,6 @@
 
     gap: 32px;
     padding: 32px;
-    font-family: 'Roboto', sans-serif;
 
 }
 
