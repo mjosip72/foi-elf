@@ -1,15 +1,18 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 #elf-html-block .content {
 
     display: grid;
 
-    grid-template-columns: repeat(4, 180px);
+    grid-template-columns: repeat(auto-fit, 180px);
     grid-auto-rows: 180px;
 
     justify-content: center;
 
     gap: 32px;
     padding: 32px;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -29,12 +32,13 @@
     cursor: pointer;
 
     border-radius: 16px;
-    box-shadow: 0px 0px 6px 1px #000000;
+    box-shadow: 0px 0px 6px 1px rgb(0, 0, 0);
 
 }
 
 #elf-html-block .item:hover {
-    box-shadow: 0px 0px 24px 4px #000000;
+    box-shadow: 0px 0px 24px 4px rgb(0, 0, 0);
+    scale: 1.04;
 }
 
 #elf-html-block img {
@@ -47,9 +51,12 @@
 #elf-html-block .text {
     text-align: center;
     color: black;
+    padding: 4px;
 }
 
 #elf-html-block a {
     display: block;
     text-decoration: none;
+    outline: none;
+    user-select: none;
 }
